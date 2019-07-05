@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<configuration>
+    <startup>        
+    <supportedRuntime version="v4.0" sku=".NETFramework,Version=v4.5.2"/></startup>
+  <appSettings>
+    <add key="WATCHEVENTLOG" value="FALSE"/>
+    <add key="EVTLOGNAME" value="Application"/>
+    <add key="EVTLOGSOURCE" value="Scuta"/>
+    <add key="BANMINUTES" value="60"/>
+    <add key="ENABLEIOT" value="FALSE"/>
+    <add key="ENABLEPBI" value="TRUE"/>
+    <add key="ENABLEMESSAGEFORWARDING" value="FALSE"/>
+    <add key="MSGFORWARDINGIP" value="192.168.1.3"/>
+    <add key="MSGFORWARDINGPORT" value="5023"/>
+    <add key="IOTDEVICEID" value="Scuta"/>
+    <add key="IOTCONNECTIONSTRING" value="<IOTHUBConnectionString>"/>
+    <add key="IOTHUBURI" value="<IOTHUBServiceURI>"/>
+    <add key="PBISERVICEURI" value="<PBIServiceURI>"/>
+    <add key="WATCHLOGFILE" value="TRUE"/>
+    <add key="WATCHLOGFILEPATH" value="C:\Program Files\OpenSSH-Win32"/>
+    <add key="WATCHLOGFILENAME" value="sshd.log"/>
+    <add key="IPCOUNTRYRESOLVERAPISERVICEURI" value="http://api.ipinfodb.com/v3/ip-city"/>
+    <add key="IPCOUNTRYRESOLVERAPIKEY" value="<IPInfoDBAPIKey>"/>
+  </appSettings>
+</configuration>
